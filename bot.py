@@ -33,4 +33,4 @@ def get_text_messages(message):
         bot.send_message(message.from_user.id, 'Подробно про советы по оформлению публикаций прочитать по ' + '[ссылке](https://habr.com/ru/docs/companies/design/)', parse_mode='Markdown')
 
 
-bot.polling(none_stop=True, interval=0) #обязательная для работы бота часть
+bot.polling(none_stop=True) #обязательная для работы бота часть
