@@ -11,4 +11,4 @@ def startBot(message):
   markup.add(button_yes)
   bot.send_message(message.chat.id, first_mess, parse_mode='html', reply_markup=markup)
 
-bot.polling(none_stop=True) #обязательная для работы бота часть
+bot.polling(none_stop=True) #обязательная для работы бота часть das
